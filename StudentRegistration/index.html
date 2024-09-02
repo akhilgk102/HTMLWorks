@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="">
+        <div>
+            <label for="name-box">Name: </label>
+            <input type="text" placeholder="Full Name" id="name-box" required>
+        </div>
+        <div>
+            <label for="fname-box">Father's Name: </label>
+            <input type="text" id="fname-box" required>
+        </div>
+        <div>
+            <label for="mname-box">Mother's Name: </label>
+            <input type="text" id="mname-box">
+        </div>
+        <div>
+            <label for="phone">Phone Number: </label>
+            <input type="number" name="" id="phone">
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="" id="email">
+        </div>
+        <div>
+            <label for="gender">Gender: </label>
+            <span>
+                <input type="radio" name="gender" value="male"><label for="">Male</label>
+                <input type="radio" name="gender" value="female"><label for="">Female</label>
+                <input type="radio" name="gender" value="other"><label for="">Other</label>
+            </span>
+        </div>
+        <div>
+            <label for="DOB">Date of Birth: </label>
+            <input type="date" id="DOB">
+        </div>
+        <div>
+            <label for="addres">Address: </label>
+            <textarea name="" id="address" rows="10" cols="30" placeholder="Street:- Road:-"
+                style="resize: none;"></textarea>
+        </div>
+        <div>
+            <label for="course">Select Course: </label>
+            <select name="" id="course">
+                <option value="none">Select</option>
+                <option value="django">Django</option>
+                <option value="MEARN">MEARN</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+            </select>
+        </div>
+        <div class="dept-class">
+            <label for="dept">Department: </label>
+            <span>
+                <input type="radio" name="dept" value="cse"><label for="">CSE</label>
+                <input type="radio" name="dept" value="eee"><label for="">EEE</label>
+                <input type="radio" name="dept" value="bba"><label for="">BBA</label>
+            </span>
+        </div>
+        <div>
+            <label for="">Skills: </label>
+            <span>
+                <input type="checkbox" name="" value="html"><label for="">HTML</label>
+                <input type="checkbox" name="" value="css"><label for="">CSS</label>
+                <input type="checkbox" name="" value="js"><label for="">JavaScript</label>
+                <input type="checkbox" name="" value="python"><label for="">Python</label>
+                <input type="checkbox" name="" value="java"><label for="">Java</label>
+                <input type="checkbox" name="" value="django"><label for="">Django</label>
+            </span>
+        </div>
+        <div>
+            <label for="photo">Photo: </label>
+            <input type="file" name="" id="photo" accept="image/*">
+        </div>
+        <div>
+            <input type="submit"></input>
+            <input type="reset"></input>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
